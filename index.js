@@ -18,7 +18,9 @@ function scrollTo() {
     )})`;
     videos.forEach(
         (video) =>
-            (video.style.transform = `rotateZ(-${degree}deg) scale(${vidScale}) `)
+            (video.style.transform = `rotateZ(-${degree}deg) scale(${vidScale.toFixed(
+                1
+            )}) `)
     );
     console.log({ scale, vidScale });
 }

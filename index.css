@@ -6,8 +6,6 @@
 .container {
     height: 650vh;
     position: relative;
-    /* border: 1px solid black; */
-    /* scroll-behavior: smooth; */
 }
 .content {
     display: flex;
@@ -19,7 +17,6 @@
     transform: translate(-50%, -50%);
 }
 .grid_container {
-    /* border: 2px solid black; */
     display: grid;
     gap: 5px;
     grid-template-columns: repeat(9, 5vh);
@@ -30,7 +27,6 @@
 .vid-container {
     border-radius: 0.7rem;
     overflow: hidden;
-    border: 1px solid green;
 }
 .one {
     grid-column: 2/6;
@@ -69,7 +65,5 @@
     height: 100%;
     display: block;
     object-fit: cover;
-    overflow-clip-margin: content-box;
-    overflow: clip;
     transform: scale(1);
 }
